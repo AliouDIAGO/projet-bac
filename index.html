@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BacSmart — Système Intelligent pour le BAC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#accueil" class="logo">Bac<span>Smart</span></a>
+      <ul class="nav-links">
+        <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+        <li><a href="#cours">Cours</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+        <li><a href="#progression">Progression</a></li>
+        <li><a href="#conseils">Conseils</a></li>
+        <li><a href="#equipe">Équipe</a></li>
+      </ul>
+      <a href="#contact" class="btn-nav">Commencer</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="hero-content">
+      <span class="hero-badge">Système Intelligent BAC</span>
+      <h1>Préparez votre BAC<br /><em>avec intelligence</em></h1>
+      <p class="hero-sub">Une plateforme numérique pensée pour les candidats au Baccalauréat. Cours, exercices, suivi personnalisé et conseils d'orientation — tout en un seul endroit.</p>
+      <div class="hero-actions">
+        <a href="#fonctionnalites" class="btn-primary">Découvrir la plateforme</a>
+        <a href="#cours" class="btn-ghost">Voir les cours →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>6</strong><span>Matières</span></div>
+        <div class="stat-sep"></div>
+        <div class="stat"><strong>200+</strong><span>Exercices</span></div>
+        <div class="stat-sep"></div>
+        <div class="stat"><strong>100%</strong><span>Gratuit</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="card-float card-1">
+        <div class="card-icon">📚</div>
+        <div class="card-text"><strong>Mathématiques</strong><br/><small>42 fiches disponibles</small></div>
+      </div>
+      <div class="card-float card-2">
+        <div class="card-icon">✅</div>
+        <div class="card-text"><strong>Quiz terminé !</strong><br/><small>Score : 18/20</small></div>
+      </div>
+      <div class="card-float card-3">
+        <div class="card-icon">📈</div>
+        <div class="card-text"><strong>Progression</strong><br/><small>+12% cette semaine</small></div>
+      </div>
+      <div class="hero-circle"></div>
+    </div>
+  </section>
+
+  <!-- FONCTIONNALITÉS -->
+  <section class="section" id="fonctionnalites">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Ce que nous offrons</span>
+        <h2>Tout ce dont vous avez besoin<br />pour réussir votre BAC</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📖</div>
+          <h3>Cours & Fiches de Révision</h3>
+          <p>Des contenus pédagogiques clairs et structurés par matière et par série, rédigés par des enseignants expérimentés.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Quiz & Exercices Interactifs</h3>
+          <p>Entraînez-vous avec des QCM, des exercices de calcul et des questions ouvertes adaptés à votre niveau.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Suivi de Progression</h3>
+          <p>Visualisez vos résultats, identifiez vos points faibles et suivez votre progression semaine après semaine.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧭</div>
+          <h3>Orientation & Conseils BAC</h3>
+          <p>Découvrez les filières, les débouchés et obtenez des conseils méthodologiques pour aborder les épreuves sereinement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURS -->
+  <section class="section section-alt" id="cours">
+    <div class="container">
+      <div class="split">
+        <div class="split-text">
+          <span class="section-label">Cours & Fiches</span>
+          <h2>Des ressources pédagogiques pour toutes les séries</h2>
+          <p>Nos fiches de révision couvrent l'ensemble du programme du BAC. Chaque fiche est structurée, illustrée et directement applicable.</p>
+          <div class="matieres">
+            <span class="matiere">Mathématiques</span>
+            <span class="matiere">Français</span>
+            <span class="matiere">Physique-Chimie</span>
+            <span class="matiere">SVT</span>
+            <span class="matiere">Histoire-Géo</span>
+            <span class="matiere">Philosophie</span>
+            <span class="matiere">Anglais</span>
+          </div>
+          <div class="series-filter">
+            <button class="serie active">Toutes séries</button>
+            <button class="serie">Série L</button>
+            <button class="serie">Série S</button>
+            <button class="serie">Série C</button>
+          </div>
+        </div>
+        <div class="split-visual">
+          <div class="fiche-preview">
+            <div class="fiche-header">
+              <span class="fiche-tag">Mathématiques — Série S</span>
+              <span class="fiche-level">Niveau avancé</span>
+            </div>
+            <h4>Les Suites Numériques</h4>
+            <div class="fiche-body">
+              <div class="fiche-section"><strong>Définition</strong><p>Une suite numérique est une fonction définie sur ℕ ou une partie de ℕ...</p></div>
+              <div class="fiche-section"><strong>Propriétés clés</strong>
+                <ul>
+                  <li>Suite arithmétique : u<sub>n+1</sub> = u<sub>n</sub> + r</li>
+                  <li>Suite géométrique : u<sub>n+1</sub> = u<sub>n</sub> × q</li>
+                </ul>
+              </div>
+            </div>
+            <div class="fiche-footer">
+              <span>📄 3 pages</span>
+              <span>⏱ 15 min</span>
+              <a href="#">Lire la fiche →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="section" id="quiz">
+    <div class="container">
+      <div class="split split-reverse">
+        <div class="split-visual">
+          <div class="quiz-preview">
+            <div class="quiz-top">
+              <span>Question 3 / 10</span>
+              <div class="quiz-bar"><div class="quiz-bar-fill" style="width:30%"></div></div>
+            </div>
+            <div class="quiz-question">
+              <p>Quelle est la dérivée de f(x) = x³ + 2x² - 5x + 1 ?</p>
+            </div>
+            <div class="quiz-options">
+              <div class="option">A. f'(x) = 3x² + 4x - 5</div>
+              <div class="option correct">B. f'(x) = 3x² + 4x - 5 ✓</div>
+              <div class="option">C. f'(x) = x² + 2x - 5</div>
+              <div class="option">D. f'(x) = 3x + 4</div>
+            </div>
+            <div class="quiz-score">Score actuel : <strong>7 / 10</strong></div>
+          </div>
+        </div>
+        <div class="split-text">
+          <span class="section-label">Quiz & Exercices</span>
+          <h2>Testez vos connaissances en conditions réelles</h2>
+          <p>Des centaines d'exercices interactifs pour vous entraîner efficacement. QCM, questions ouvertes, calculs — chaque exercice est corrigé automatiquement avec des explications détaillées.</p>
+          <ul class="check-list">
+            <li>✓ Quiz adaptatifs selon votre niveau</li>
+            <li>✓ Correction instantanée avec explication</li>
+            <li>✓ Exercices classés par difficulté</li>
+            <li>✓ Simulations d'épreuves complètes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRESSION -->
+  <section class="section section-alt" id="progression">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Suivi de Progression</span>
+        <h2>Votre tableau de bord personnel</h2>
+        <p class="section-sub">Suivez vos résultats en temps réel et identifiez les matières à retravailler.</p>
+      </div>
+      <div class="dashboard-preview">
+        <div class="dash-card">
+          <div class="dash-label">Taux de réussite global</div>
+          <div class="dash-value">74%</div>
+          <div class="dash-bar"><div class="dash-fill" style="width:74%"></div></div>
+        </div>
+        <div class="dash-card">
+          <div class="dash-label">Exercices complétés</div>
+          <div class="dash-value">138</div>
+          <div class="dash-sub">sur 200 disponibles</div>
+        </div>
+        <div class="dash-card">
+          <div class="dash-label">Temps de révision</div>
+          <div class="dash-value">24h</div>
+          <div class="dash-sub">cette semaine</div>
+        </div>
+        <div class="dash-card">
+          <div class="dash-label">Meilleure matière</div>
+          <div class="dash-value">Maths</div>
+          <div class="dash-sub">Score moyen : 16/20</div>
+        </div>
+        <div class="dash-card dash-wide">
+          <div class="dash-label">Progression par matière</div>
+          <div class="progress-bars">
+            <div class="prog-row"><span>Mathématiques</span><div class="prog-bar"><div class="prog-fill" style="width:82%"></div></div><span>82%</span></div>
+            <div class="prog-row"><span>Français</span><div class="prog-bar"><div class="prog-fill" style="width:65%"></div></div><span>65%</span></div>
+            <div class="prog-row"><span>Physique</span><div class="prog-bar"><div class="prog-fill" style="width:70%"></div></div><span>70%</span></div>
+            <div class="prog-row"><span>Histoire-Géo</span><div class="prog-bar"><div class="prog-fill" style="width:55%"></div></div><span>55%</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONSEILS -->
+  <section class="section" id="conseils">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Orientation & Conseils</span>
+        <h2>Préparez-vous avec méthode</h2>
+      </div>
+      <div class="conseils-grid">
+        <div class="conseil-card">
+          <div class="conseil-num">01</div>
+          <h3>Choisir sa filière</h3>
+          <p>Découvrez les séries du BAC (L, S, C…), leurs matières phares et les débouchés vers l'enseignement supérieur.</p>
+        </div>
+        <div class="conseil-card">
+          <div class="conseil-num">02</div>
+          <h3>Organiser ses révisions</h3>
+          <p>Techniques de mémorisation, plannings types, gestion du stress — nos conseils méthodologiques pour réviser efficacement.</p>
+        </div>
+        <div class="conseil-card">
+          <div class="conseil-num">03</div>
+          <h3>Réussir le jour J</h3>
+          <p>Conseils pratiques pour aborder les épreuves sereinement : gestion du temps, présentation des copies, pièges à éviter.</p>
+        </div>
+        <div class="conseil-card">
+          <div class="conseil-num">04</div>
+          <h3>Calendrier des épreuves</h3>
+          <p>Toutes les dates importantes du BAC : inscriptions, épreuves écrites, oraux et délibérations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TÉMOIGNAGE -->
+  <section class="section-temoignage">
+    <div class="container">
+      <blockquote>
+        "Grâce à BacSmart, j'ai pu organiser mes révisions efficacement. Le suivi de progression m'a aidé à identifier mes points faibles et à les corriger avant l'examen."
+      </blockquote>
+      <cite>— Aminata S., candidate au BAC série S</cite>
+    </div>
+  </section>
+
+  <!-- ÉQUIPE -->
+  <section class="section section-alt" id="equipe">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Notre Équipe</span>
+        <h2>Quatre étudiants, un projet commun</h2>
+        <p class="section-sub">Développé dans le cadre du module Atelier Créatif — Groupe ISI, Avril 2026.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar">AD</div>
+          <h4>Aliou DIAGO</h4>
+          <span class="team-role">Chef de Projet</span>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">SA</div>
+          <h4>Said Ali ABDOUROIHAMANE</h4>
+          <span class="team-role">Développeur Principal</span>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">SD</div>
+          <h4>Souadou DIALLO</h4>
+          <span class="team-role">Design & Contenu</span>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">IB</div>
+          <h4>Ibrahima BA</h4>
+          <span class="team-role">Développeur Front-end</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-box">
+        <h2>Intéressé par le projet ?</h2>
+        <p>Laissez-nous votre message et nous vous répondrons dans les plus brefs délais.</p>
+        <div class="contact-form">
+          <div class="form-row">
+            <input type="text" placeholder="Votre nom" />
+            <input type="email" placeholder="Votre email" />
+          </div>
+          <textarea placeholder="Votre message..."></textarea>
+          <button class="btn-primary" type="button">Envoyer le message</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#accueil" class="logo">Bac<span>Smart</span></a>
+          <p>Système intelligent pour accompagner les candidats au Baccalauréat.</p>
+        </div>
+        <div class="footer-links">
+          <strong>Navigation</strong>
+          <a href="#fonctionnalites">Fonctionnalités</a>
+          <a href="#cours">Cours</a>
+          <a href="#quiz">Quiz</a>
+          <a href="#progression">Progression</a>
+          <a href="#conseils">Conseils</a>
+          <a href="#equipe">Équipe</a>
+        </div>
+        <div class="footer-links">
+          <strong>Projet</strong>
+          <a href="#">GitHub</a>
+          <a href="#">Trello</a>
+          <a href="#">Cahier des charges</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 BacSmart — Groupe ISI — Atelier Créatif</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
